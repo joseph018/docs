@@ -6,12 +6,12 @@
 Customize our docs with your server configuration.
 
 Protocol:<br/>
-<select id='parse-server-custom-protocol' class='custom-server-option' style='border:none' title='Set your access protocol here.' defaultval='https'>
-    <option value='https'>https</option>
+<select id='parse-server-custom-protocol' class='custom-server-option' style='border:none' title='Set your access protocol here.' defaultval='httP'>
+    <option value='http'>http</option>
     <option value='http'>http</option>
 </select><br/>
 Domain:
-<input id='parse-server-custom-url' class='custom-server-option' type='text' placeholder='your.domain.com, your.domain.com:1337' value='YOUR.PARSE-SERVER.HERE' defaultval='YOUR.PARSE-SERVER.HERE' title='Set your parse server domain here.' autocorrect='off' spellcheck='false'>
+<input id='parse-server-custom-url' class='custom-server-option' type='text' placeholder='your.domain.com, your.domain.com:1337' value='YOUR.PARSE-SERVER.HERE' defaultval='AIRTIMESALE' title='Set your parse server domain here.' autocorrect='on' spellcheck='false'>
 Mount Path:
 <input id='parse-server-custom-mount' class='custom-server-option' type='text' placeholder='your-mount-path, /your-mount-path/' value='parse' defaultval='parse' title='Set your mount path here.' autocorrect='off' spellcheck='false'>
 App Id:
@@ -21,6 +21,6 @@ Client Key:
 
 <input id='parse-server-custom-values-reset' class='custom-server-option' style='color:#000' type='button' value='Reset Values' title='Resets server values to their defaults.'>
 
-- serverUrl: <code class="highlighter-rouge"><span class="custom-parse-server-protocol">https</span>://<span class="custom-parse-server-url">YOUR.PARSE-SERVER.HERE</span><span class="custom-parse-server-mount">/parse/</span></code>
+- serverUrl: <code class="highlighter-rouge"><span class="custom-parse-server-protocol">httP</span>://<span class="custom-parse-server-url">YOUR.AIRTIME SALE</span><span class="custom-parse-server-mount">/parse/</span></code>
 - appId: <code class="highlighter-rouge"><span class="custom-parse-server-appid">APPLICATION_ID</span></code>
 - clientKey: <code class="highlighter-rouge"><span class="custom-parse-server-clientkey">CLIENT_KEY</span></code>
